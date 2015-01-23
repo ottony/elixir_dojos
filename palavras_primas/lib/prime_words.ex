@@ -1,4 +1,4 @@
-defmodule PalavrasPrimas do
+defmodule PrimeWords do
   def to_int_list word do
     word |> String.to_char_list |>
     Enum.map fn

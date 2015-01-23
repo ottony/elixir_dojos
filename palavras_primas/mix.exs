@@ -1,8 +1,8 @@
-defmodule PalavrasPrimas.Mixfile do
+defmodule PrimeWords.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :palavras_primas,
+    [app: :prime_words,
      version: "0.0.1",
      elixir: "~> 1.0",
      deps: deps]

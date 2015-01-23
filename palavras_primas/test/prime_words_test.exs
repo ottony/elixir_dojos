@@ -1,7 +1,7 @@
-defmodule PalavrasPrimasTest do
+defmodule PrimeWordsTest do
   use ExUnit.Case
 
-  import PalavrasPrimas
+  import PrimeWords
 
   test "the truth" do
     assert 1 + 1 == 2

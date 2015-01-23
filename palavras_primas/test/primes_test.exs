@@ -34,6 +34,10 @@ defmodule PrimesTest do
     refute 0 |> prime?
   end
 
+  test "91 is not prime" do
+    refute 91 |> prime?
+  end
+
   test "1013 is prime" do
     assert 1013 |> prime?
   end
